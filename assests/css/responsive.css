@@ -38,14 +38,30 @@
 }
  /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-
-
-
-
-
-
-
-
+.feedback .media {
+    display: block;
+}
+.feedback .media .media-body {
+    margin-left: 0;
+}
+.feedback .media .img-fluid {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.wrapper .banner h1 {
+    font-size: 28px;
+}
+.wrapper .banner a {
+    padding: 25px 10px;
+    font-size: 22px;
+}
+.wrapper header a {
+    display: block;
+    text-align: center;
+}
 
 
 
